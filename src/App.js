@@ -4,13 +4,12 @@ import Home from "./pages/Home";
 import Destinations from "./pages/Destinations";
 import Booking from "./pages/Booking";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header"
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Header />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/destinations" element={<Destinations />} />

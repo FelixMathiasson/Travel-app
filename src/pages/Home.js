@@ -1,10 +1,11 @@
 import React from "react";
 
+import Header from "../components/Header"
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to the Travel App</h1>
-      <p>Explore amazing destinations around the world!</p>
+      <Header />
+    
     </div>
   );
 };

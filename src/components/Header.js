@@ -7,10 +7,11 @@ const Header = () => {
     <header
       className="header"
       style={{
-        backgroundImage: `url(${headerBackground})`, // Use the imported image
-        backgroundSize: "cover",
+        backgroundImage: `url(${headerBackground})`,
+        backgroundSize: "contain", // Show the entire image
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        backgroundColor: "#fff", // Fallback color for blank areas
       }}
     >
       <div className="header-content">
