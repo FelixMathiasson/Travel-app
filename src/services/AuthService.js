@@ -1,0 +1,1 @@
+//  A service for handling user authentication (sign-up, login, logout).

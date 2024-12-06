@@ -1,0 +1,1 @@
+// A footer for your site with legal links, contact info, etc.

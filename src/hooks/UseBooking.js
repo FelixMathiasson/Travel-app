@@ -1,0 +1,1 @@
+// A custom hook to manage booking information (e.g., destination, dates) in the state.

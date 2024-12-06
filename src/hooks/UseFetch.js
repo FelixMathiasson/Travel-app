@@ -1,0 +1,1 @@
+// : A custom hook to fetch data from an API, simplifying the data-fetching process across your app.

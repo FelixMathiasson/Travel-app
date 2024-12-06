@@ -1,0 +1,1 @@
+//  A card component to display destination information, like images, name, and description.
