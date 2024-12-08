@@ -1,33 +1,41 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #13d3c9;
-    color: #fff;
-  }
-  
-  .navbar-brand h1 {
-    margin: 0;
-    font-size: 2rem;
-  }
-  
-  .navbar-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .navbar-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.3s;
-  }
-  
-  .navbar-link:hover {
-    color: #f39c12; /* Change color when hovered */
-  }
-  
+  display: flex;
+  align-items: center; /* Vertically center items */
+  padding: 1rem 2rem;
+  background-color: #13d3c9;
+  color: #fff;
+  height: 7%; /* Fixed height to fit content */
+  justify-content: flex-start; /* Start all items from the left */
+  gap: 2rem; /* Add space between brand and links */
+  position: relative;
+  width: 100%;
+}
+
+.navbar-brand {
+  white-space: nowrap; /* Prevent the brand text from wrapping to the next line */
+  margin-right: 2rem; /* Add space between brand and links */
+}
+
+.navbar-brand h1 {
+  margin: 0; /* Remove unnecessary margin */
+  font-size: 2rem;
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Arrange links in a row */
+  gap: 1.5rem; /* Space between each link */
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.navbar-link:hover {
+  color: #f39c12; /* Change color when hovered */
+}

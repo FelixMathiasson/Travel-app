@@ -1,14 +1,21 @@
 .header {
-  height: 100vh; /* Ensure it occupies the full viewport height */
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
   text-align: center;
-  color: white;
+  color: white; 
+  position:relative; /* Respect navbar position */
+  margin-top: 7vh; /* Set top margin equal to navbar height */
+  min-height: 30em;
+  min-width: 34em;
+  height:100%; /* Ensure header adjusts based on viewport height */
+  width: 100%;
 }
 
 .header-content {
-  max-width: 800px;
+  max-width: 1000px;
+  height: auto;
+  width: auto;
   margin: 0 auto;
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
@@ -32,7 +39,7 @@
   background-color: #f39c12;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -48,6 +55,10 @@
   }
 
   .header-description {
+    font-size: 1rem;
+  }
+
+  .header-button {
     font-size: 1rem;
   }
 }
