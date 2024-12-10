@@ -4,22 +4,21 @@
   align-items: center; /* Center content vertically */
   text-align: center;
   color: white; 
-  position:relative; /* Respect navbar position */
-  margin-top: 7vh; /* Set top margin equal to navbar height */
-  min-height: 30em;
+  position:absolute; /* Respect navbar position */
   min-width: 34em;
-  height:100%; /* Ensure header adjusts based on viewport height */
-  width: 100%;
+  min-height: 30em;
+  height: 100vh; /* Ensure header adjusts based on viewport height */
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header-content {
-  max-width: 1000px;
-  height: auto;
-  width: auto;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  border-radius: 10px;
+    text-align: center; /* Center text inside the content box */
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.5); /*Add a semi-transparent background for better contrast */
+    padding: 2rem; 
+    border-radius: 10px; 
 }
 
 .header-title {

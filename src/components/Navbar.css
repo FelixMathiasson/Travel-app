@@ -8,7 +8,7 @@
   justify-content: flex-start; /* Start all items from the left */
   gap: 2rem; /* Add space between brand and links */
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 .navbar-brand {
