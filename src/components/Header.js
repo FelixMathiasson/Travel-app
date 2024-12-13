@@ -9,7 +9,7 @@ const Header = () => {
       style={{
         backgroundImage: `url(${headerBackground})`, // Use the imported image
         backgroundSize: "contain",
-        backgroundPosition: "top",
+        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >
