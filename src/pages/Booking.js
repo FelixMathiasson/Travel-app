@@ -57,7 +57,10 @@ const Booking = () => {
                 required
               >
                 <option value="" disabled>Select a destination</option>
-                {destinations.map((dest) => (
+                {destinations
+                .slice() // Create a shallow copy to avoid mutating the original array
+                .sort((a, b) => a.name.localeCompare(b.name)) // Sort alphabetically by name
+                .map((dest) => (
                   <option key={dest.name} value={dest.name}>
                     {dest.name}
                   </option>
